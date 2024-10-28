@@ -1,0 +1,9 @@
+from datetime import datetime
+
+
+def greet(name: str) -> None:
+    print(f'Good Morning, {name}!')
+
+greet('Metawin')
+greet('Win')
+greet('Opas-iamkajorn')
