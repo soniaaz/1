@@ -1,0 +1,17 @@
+class Car:
+    def __init__(self, colour: str, horsepower: int) ->None:
+        self.colour = colour
+        self.horsepower = horsepower
+
+
+Porsche: Car = Car('Black',400)
+print(Porsche.colour)
+print(Porsche.horsepower)
+
+BMW: Car = Car('Blue',250)
+print(BMW.colour)
+print(BMW.horsepower)
+
+McLaren: Car = Car('Black',400)
+print(McLaren.colour)
+print(McLaren.horsepower)
