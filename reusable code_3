@@ -1,0 +1,14 @@
+def add(a:float, b:float):
+    return a + b
+
+print(add(5, 4))
+
+def add(a:float, b:float, c:float):
+    return a + b + c
+
+print(add(5, 4, 10))
+
+def add(x:float, y:float):
+    return x + y
+
+print(add(10, 0))
