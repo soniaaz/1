@@ -1,0 +1,4 @@
+from typing import Final
+
+Version: Final[str] = '8.8.8.8'
+PI: Final[float] = 3.1415
